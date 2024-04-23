@@ -17,7 +17,7 @@ export const GameProvider = ({children})=>{
 
    
 
-    const words =["hello","test","squid","computer","phone","android","apple","windows"]
+    const words =["hello","test","squid","computer","phone","android","apple","windows","toilet","nintendo"]
     const randomNumber = Math.floor(Math.random() * words.length) + 1;
     const [wordSelected,setWorldSelected]= useState(words[randomNumber])
     const [listScore,setListScore] = useState([])
